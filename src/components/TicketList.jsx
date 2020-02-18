@@ -1,6 +1,8 @@
 import React from 'react';
 import Ticket from './Ticket';
 import PropTypes from 'prop-types';
+// import Likes from './Likes';
+
 
 function TicketList(props){
   return (
@@ -10,6 +12,8 @@ function TicketList(props){
         <Ticket names={ticket.names}
           location={ticket.location}
           issue={ticket.issue}
+          likes={ticket.likes}
+          dislikes={ticket.dislikes}
           key={ticket.id}/>
       )}
     </div>
