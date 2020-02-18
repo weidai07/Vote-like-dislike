@@ -1,22 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
-// import Ticket from './Ticket';
-
-// function Likes(props){
-//     return (
-//       <div>
-//         <p>{Ticket.likes}</p>
-//         <button onClick={props.onLikeClick}>Like</button>
-//       </div>
-//     );
-//   }
-  
-//   Likes.propTypes = {
-//     onLikeClick: PropTypes.func
-//   };
-  
-//   export default Likes;
-
 
 class Dislikes extends React.Component {
 
